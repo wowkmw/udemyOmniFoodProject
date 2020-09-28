@@ -7,7 +7,10 @@
 html {
     background-color: #ffffff;
     color: #555555;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
 }
 
 .testh1 {
