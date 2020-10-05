@@ -90,9 +90,13 @@ h2:after {
     line-height: 145%;
 }
 
+#longcopyfeatures {
+    margin-bottom: 30px;
+}
+
 /*-------ICONS-------*/
 .icon-big {
-    font-size: 250%;
+    font-size: 300%;
     display: block;
     color: #e67e22;
     margin-bottom: 10px;
@@ -190,4 +194,42 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
+}
+
+/*---------------------------------------*/
+/*MEALS*/
+/*---------------------------------------*/
+.meal-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meal-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photos {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.meal-photos img {
+    opacity: 70%;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.4s, opacity 0.4s;
+}
+
+.meal-photos img:hover {
+    transform: scale(1.05);
+    opacity: 100%;
+}
+
+.section-meals {
+    padding: 0;
 }
