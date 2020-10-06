@@ -22,6 +22,18 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix::after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /*---------------------------------------*/
 /*REUSABLE COMPONENTS*/
 /*---------------------------------------*/
@@ -71,7 +83,7 @@ h3 {
 
 h2:after {
     display: block;
-    height: 2px;
+    height: 2.5px;
     background-color: #e67e22;
     content: " ";
     width: 150px;
@@ -232,4 +244,53 @@ header {
 
 .section-meals {
     padding: 0;
+}
+
+/*--------how it works-------------*/
+.section-steps {
+    background-color: #f4f4f4;
+}
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top: 80px;
+
+}
+
+.app-display {
+    width: 40%;
+}
+
+.steps {
+    margin-bottom: 50px;
+}
+
+.steps:last-of-type {
+    margin-bottom: 70px;
+}
+
+.steps div {
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    font-size: 150%;
+    padding: 8px;
+    float: left;
+    margin-right: 25px;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
 }
