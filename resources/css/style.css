@@ -51,6 +51,24 @@ section {
     padding: 1%;
 }
 
+a:link,
+a:visited {
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 2px solid #e67e22;
+    font-weight: 300;
+    transition: color 0.2s, border-bottom 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #555555;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 2px solid transparent;
+}
+
 /*-------HEADINGS-------*/
 h1,
 h2,
@@ -285,7 +303,6 @@ header {
     text-align: center;
     font-size: 150%;
     padding: 8px;
-    float: left;
     margin-right: 25px;
 }
 
@@ -293,4 +310,37 @@ header {
     height: 50px;
     width: auto;
     margin-right: 10px;
+}
+
+.btn-app:link,
+.btn-app:visited {
+    border-bottom: 0px;
+}
+
+/*-------cities--------*/
+
+.section-cities ion-icon {
+    color: #e67e22;
+    width: 30px;
+    text-align: center;
+    font-size: 120%;
+    /*technique for text and icon alignment*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-right: 15px;
+    margin-top: -5px;
+    display: inline-block;
+}
+
+.city-box img {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.city-box h3 {
+    text-align: center;
+}
+
+.loc {
+    margin-bottom: 7px;
 }
