@@ -475,3 +475,81 @@ input[type=checkbox] {
 *:focus {
     outline: none;
 }
+
+/*----------CONTACT--------------*/
+footer {
+    background-color: #3f3f3f;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:visited,
+.social-links li a:link {
+    text-decoration: none;
+    border: 0;
+    color: #adadad;
+}
+
+.footer-nav li a:active,
+.footer-nav li a:hover {
+    color: #e67e22;
+}
+
+.copyright {
+    color: #adadad;
+    font-size: 80%;
+    text-align: right;
+    margin-top: 10px;
+}
+
+ion-icon[name=logo-facebook]:hover,
+ion-icon[name=logo-facebook]:active {
+    color: #1877f2;
+
+}
+
+ion-icon[name=logo-twitter]:hover,
+ion-icon[name=logo-twitter]:active {
+    color: #1da1f2;
+}
+
+ion-icon[name=logo-google]:hover,
+ion-icon[name=logo-google]:active {
+    color: #ea4335;
+}
+
+ion-icon[name=logo-instagram]:hover,
+ion-icon[name=logo-instagram]:active {
+    color: #c32aa3;
+}
+
+ion-icon[name=logo-facebook],
+ion-icon[name=logo-twitter],
+ion-icon[name=logo-google],
+ion-icon[name=logo-instagram] {
+    font-size: 125%;
+    transition: 0.3s;
+}
